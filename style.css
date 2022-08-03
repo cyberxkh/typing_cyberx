@@ -1,0 +1,85 @@
+body{
+    background-color: #3D0000;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    font-family: verdana;
+    color: #950101;
+}
+#particles-js{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    padding: 0;
+    color: antiquewhite;
+    
+}
+
+.header_div span{
+    text-transform: uppercase;
+	font-weight: 700;
+    font-size: clamp(1rem, 2vw, 2rem);
+    transition: .20s;
+}
+
+.section_div{
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#000000;
+	border-radius: 20px;
+    vertical-align: middle;
+	box-shadow: 5px 5px 20px 1px;
+}
+
+.section_div input[type="text"]{
+    border: 0;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid rgb(149, 1, 1);
+	padding: 14px 10px;
+	width: 50%;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: width .25s ease-in-out;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section_div input[type="text"]:hover{
+	transition: .25s;
+	border: 3px solid rgb(255, 0, 0);
+}
+.section_div input[type="text"]:focus{
+	width: 55%;
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+.linux_word{
+    color: white;
+    font-weight: 700;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+
+}
+
+div{
+    padding: 4px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    padding: 0;
+}
+
